@@ -1,0 +1,40 @@
+// 导入其他的less样式文件
+@import "common";
+
+@baseFont:50rem;
+
+body{
+    min-width: 320px;
+    margin: 0 auto;
+    width: 15rem;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+}
+// 顶部搜索栏
+.search-content{
+    width: 15rem;
+    height: 88 / @baseFont;
+    background-color: #ffc001;
+    display: flex;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    .classify{
+        height: 70 / @baseFont;
+        width: 44 / @baseFont;
+        margin: 11 / @baseFont 25 / @baseFont 7 / @baseFont 24 / @baseFont ;
+        background-color: #00f;
+    }
+    .search{
+        flex: 1;
+        background-color: #616;
+    }
+    .login{
+        width: 75 / @baseFont;
+        height: 70 / @baseFont;
+        background-color: #0ff;
+        margin: 10 / @baseFont;
+    }
+}
