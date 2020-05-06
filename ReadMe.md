@@ -1,1 +1,5 @@
-rem的认识学习  demo的练习   苏宁易购的静态首页
+苏宁易购的静态首页
+其中suning-static采用rem+媒体查询的方式实现320px至750px屏幕宽度的屏幕自适应
+suning-static-flexiblejs  采用rem+flexiblejs的方式实现320px至750px屏幕宽度内任意尺寸的屏幕自适应，相较前者更灵活
+
+打开方式，直接打开文件的html文件即可，打开控制台可控制屏幕宽度变化

@@ -1,0 +1,109 @@
+body {
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    width: 10rem;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+    height: 26.666667rem;
+  }
+  a{
+      text-decoration: none;
+  }
+
+  /* 设置最大屏幕宽度为750px  超出则按750计算 */
+  @media screen and (min-width:750px){
+    html{
+      font-size: 75px !important;
+    }
+  }
+/* 设置最小屏幕宽度为320px  不足则按320计算 */
+  @media screen and (max-width:320px){
+    html{
+      font-size: 32px !important;
+    }
+  }
+
+  /* 搜索模块 */
+  .search-container{
+    width: 10rem;
+    height: 1.173333rem;
+    background-color: #ffc001;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    display: flex;
+    text-align: center;
+    .classify{
+        width: .586667rem;
+        height: .933333rem;
+        background:url(../images/classify.png) no-repeat;
+        background-size: .586667rem;
+        margin: .133333rem .333333rem  .093333rem .32rem;
+    }
+    .search{
+        flex: 1;
+        input{
+            outline: none;
+            border: 0;
+            border-radius: .44rem;
+            height: .88rem;
+            width: 100%;
+            margin-top: .146667rem;
+            color: #666;
+            padding-left: .733333rem;
+            font-size: .333333rem;
+        }
+    }
+    .login{
+        width: 1rem;
+        height: .933333rem;
+        line-height: .933333rem;
+        margin: .133333rem;
+        color: #fff;
+        font-size: .333333rem;
+    }
+  }
+//   banner模块
+.banner{
+    height: 4.906667rem;
+    width: 10rem;
+    img{
+        height: 4.906667rem;
+        width: 10rem;
+    }
+}
+// 广告
+.ad{
+    display: flex;
+    a{
+        flex: 1;
+        img{
+            width: 100%;
+        }
+    }
+}
+// nav模块  就是icon导航
+nav{
+    width: 10rem;
+    a{
+        float: left;
+        width: 2rem;
+        height: 1.866667rem;
+        padding-bottom: .133333rem;
+        text-align: center;
+        img{
+            display: block;
+            height: 1.093333rem;
+            width: 1.093333rem;
+            margin: .133333rem auto 0 ;
+        }
+        span{
+            font-size: .333333rem;
+        
+            color: #333;
+        }
+    }
+}
